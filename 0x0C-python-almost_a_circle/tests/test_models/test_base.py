@@ -217,7 +217,7 @@ class TestBase(unittest.TestCase):
             list_output = Rectangle.from_json_string({1: 'Hello', 2: 'Hi'})
         self.assertEqual("json_string must be a string", str(x.exception))
 
-        def test_17_2(self):
+    def test_17_2(self):
         """Test static method from_json_string with wrong args."""
 
         s1 = ("from_json_string() missing 1" +
@@ -377,7 +377,6 @@ class TestBase(unittest.TestCase):
 
     def test_20_5(self):
         """Test class method load_from_file_csv with wrong args."""
-
 
         s = "load_from_file_csv() takes 1 positional argument but 2 were given"
         with self.assertRaises(TypeError) as x:

@@ -1,4 +1,4 @@
-Script that displays the average temperature
+-- Script that displays the average temperature
 
 -- Query to display the average temperature by city ordered by temperature
 
